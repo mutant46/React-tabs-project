@@ -3,3 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+// vaiables 
+$bg_color : #CACFD2 ;
+
+// imports
+@import './App/app';
+
+// styling
+
+body {
+    background-color: $bg_color;
+}
