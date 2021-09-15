@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.selected {
+  background-color: #a7f3d0;
+}
+
+.img,
+.title,
+.para {
+  -webkit-animation: skeleton-loading 0.5s linear infinite alternate;
+          animation: skeleton-loading 0.5s linear infinite alternate;
+}
+
+@-webkit-keyframes skeleton-loading {
+  0% {
+    background-color: #c2cfd6;
+  }
+  100% {
+    background-color: #f0f3f5;
+  }
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: #c2cfd6;
+  }
+  100% {
+    background-color: #f0f3f5;
+  }
+}
+/*# sourceMappingURL=index.css.map */
